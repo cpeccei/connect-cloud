@@ -44,6 +44,8 @@ plot_ly(data = iris, x = ~Sepal.Length, y = ~Petal.Length,
   type = "scatter", mode = "markers")
 ```
 
+Write data.
+
 ```{r}
 write_csv(mtcars, "cars.csv")
 ```
