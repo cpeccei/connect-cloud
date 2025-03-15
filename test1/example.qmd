@@ -43,3 +43,8 @@ An interactive chart.
 plot_ly(data = iris, x = ~Sepal.Length, y = ~Petal.Length,
   type = "scatter", mode = "markers")
 ```
+
+```{r}
+write_csv(mtcars, "cars.csv")
+```
+
