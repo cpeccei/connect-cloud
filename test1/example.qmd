@@ -47,6 +47,9 @@ plot_ly(data = iris, x = ~Sepal.Length, y = ~Petal.Length,
 Write data.
 
 ```{r}
-write_csv(mtcars, "example_files/cars.csv")
+write_csv(mtcars, "cars.csv")
 ```
+
+Link to [download](cars.csv)
+
 
